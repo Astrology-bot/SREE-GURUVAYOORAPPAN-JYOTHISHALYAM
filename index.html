@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SREE GURUVAYOORAPPAN JYOTHISHALYAM</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background:#FFF8E7;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#6A0D0D;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    color:#D4AF37;
+    font-size:38px;
+    margin-bottom:5px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* Navigation */
+nav{
+    background:#4d0808;
+    padding:12px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:999;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+
+nav a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    padding:10px 12px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#D4AF37;
+}
+
+/* Hero Section */
+.hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:url('https://guruvayurdevaswom.in/assets/images/hero-gd.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:55px;
+    margin-bottom:20px;
+    text-shadow:3px 3px 10px black;
+}
+
+.hero p{
+    font-size:26px;
+    margin-bottom:30px;
+    text-shadow:2px 2px 8px black;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    background:#D4AF37;
+    color:#6A0D0D;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+    margin:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* Sections */
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#6A0D0D;
+    margin-bottom:35px;
+    font-size:34px;
+}
+
+/* Services */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#6A0D0D;
+    margin-bottom:10px;
+}
+
+/* About */
+.about{
+    background:#fdf2d8;
+    text-align:center;
+    font-size:18px;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+/* Footer */
+footer{
+    background:#6A0D0D;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+    header h1{
+        font-size:24px;
+    }
+
+    header p{
+        font-size:15px;
+    }
+
+    .hero h2{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .section-title{
+        font-size:28px;
+    }
+
+    section{
+        padding:40px 5%;
+    }
+
+    nav{
+        text-align:left;
+    }
+
+    nav a{
+        font-size:14px;
+        padding:8px 10px;
+    }
+
+    .btn{
+        display:block;
+        width:100%;
+        max-width:300px;
+        margin:10px auto;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SREE GURUVAYOORAPPAN JYOTHISHALYAM</h1>
+    <p>Traditional Astrology & Spiritual Guidance</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Porutham.html">Porutham</a>
+    <a href="Jathakam.html">Jathakam</a>
+    <a href="muhurtham.html">Muhurtham</a>
+    <a href="pooja.html">Pooja</a>
+    <a href="Preshanm.html">Preshnam</a>
+    <a href="career.html">Career</a>
+    <a href="vastu.html">Vastu</a>
+    <a href="Yantra.html">Yantra</a>
+    <a href="Service.html">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h2>Your Trusted Guide Through Astrology</h2>
+
+        <p>
+            Marriage • Career • Business • Family • Prosperity
+        </p>
+
+        <a href="https://wa.me/919999999999" class="btn">
+            WhatsApp Consultation
+        </a>
+
+        <a href="mailto:guruvayurastrologymumbai@gmail.com" class="btn">
+            Email Us
+        </a>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🔮 Horoscope Reading</h3>
+            <p>Detailed birth chart analysis and life predictions.</p>
+        </div>
+
+        <div class="card">
+            <h3>💍 Porutham (Marriage Matching)</h3>
+            <p>Kundali matching and relationship compatibility guidance.</p>
+        </div>
+
+        <div class="card">
+            <h3>💼 Career Guidance</h3>
+            <p>Astrological insights for career growth and opportunities.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏠 Vastu Consultation</h3>
+            <p>Guidance for homes, offices and business establishments.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔢 Numerology</h3>
+            <p>Discover the power of numbers in your life.</p>
+        </div>
+
+        <div class="card">
+            <h3>📿 Spiritual Remedies</h3>
+            <p>Personalized remedies and spiritual guidance.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <p>
+        Sree Guruvayoorappan Jyothishalayam offers traditional Vedic astrology
+        consultations to help individuals make informed decisions regarding
+        marriage, career, finance, health, business, and spiritual well-being.
+        Our aim is to provide guidance rooted in Kerala's ancient astrological
+        traditions and spiritual wisdom.
+    </p>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <p><strong>WhatsApp:</strong> +91 XXXXXXXXXX</p>
+    <p><strong>Email:</strong> guruvayurastrologymumbai@gmail.com</p>
+    <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+
+    <br>
+
+    <a href="https://wa.me/919999999999" class="btn">
+        Chat on WhatsApp
+    </a>
+
+</section>
+
+<footer>
+    <p>© 2026 Sree Guruvayoorappan Jyothishalayam. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
